@@ -5,27 +5,32 @@ body{
   scroll-behavior: smooth;
 }
 .nav-link{
-  padding-top: 5px;
+  padding: 20px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing:-1;
   line-height: 53px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  font-size: 13px;
+
+  font-size: 18px;
+
 }
 .nav-link:hover{
   color: #745cf9 !important;
+
 }
 .navbar-brand{
-  font-size: 300px;
+  padding: 30px;
+  font-size:2rem;
   margin-left:100px;
-  font-weight:300;
+
   color:#666666;
 }
 .navbar{
   width: 100%;
+  padding:1rem;
+
+
+
 }
 
 
@@ -67,33 +72,42 @@ body{
   font-size: 1rem;
   color: #fff;
   padding: 2rem;
+}
   /* line-height: 1; */
 
-}
+/* }
 .btn{
   background-color: blue;
   padding:15px 32px;
   color: white;
   font-size: 16px;
+  transition: uppercase;
   margin:4px 2px;
   cursor: pointer;
-  width: 25%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   font-size: 40px;
+} */
 
+.btn-dark{
+  padding: 30px 110px;
+  margin-right: 19px;
+  color: white;
+  background-color:#745cf9;
+}
+.btn-white{
+  padding: 30px 110px;
+  color: white;
+  outline-style: solid;
 
 }
-.btnn{
-  padding: 14px 40px;
-  color:black;
-  margin:0px 0px 24px;
-  width: 25%;
-  /* height: 50%;
-  font-size: 40px;
- */
-
-
+.btn-dark:hover{
+  background-color:#6166B3;
 }
+.btn-white:hover{
+  background-color: white;
+}
+
 .para2{
   font-size: 2rem;
   padding-top: 7%;
@@ -209,7 +223,7 @@ left: 35%
 
 .title{
   font-weight: 200;
-  font-size: 24px;
+
 }
 .sec-last{
   background-color: white;
